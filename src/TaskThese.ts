@@ -210,7 +210,7 @@ export const URI = 'TaskThese'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind2<E, A> {
     readonly [URI]: TaskThese<E, A>
   }

@@ -621,7 +621,7 @@ export const URI = 'Record'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind<A> {
     readonly [URI]: Record<string, A>
   }

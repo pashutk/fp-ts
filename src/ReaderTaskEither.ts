@@ -615,7 +615,7 @@ export const URI = 'ReaderTaskEither'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind3<R, E, A> {
     readonly [URI]: ReaderTaskEither<R, E, A>
   }

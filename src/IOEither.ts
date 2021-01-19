@@ -419,7 +419,7 @@ export const URI = 'IOEither'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind2<E, A> {
     readonly [URI]: IOEither<E, A>
   }

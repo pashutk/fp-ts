@@ -644,7 +644,7 @@ export const URI = 'StateReaderTaskEither'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind4<S, R, E, A> {
     readonly [URI]: StateReaderTaskEither<S, R, E, A>
   }

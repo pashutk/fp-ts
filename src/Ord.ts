@@ -315,7 +315,7 @@ export const URI = 'Ord'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind<A> {
     readonly [URI]: Ord<A>
   }

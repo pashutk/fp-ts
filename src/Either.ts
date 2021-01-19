@@ -853,7 +853,7 @@ export const URI = 'Either'
  */
 export type URI = typeof URI
 
-declare module './HKT' {
+declare module './HKT.ts' {
   interface URItoKind2<E, A> {
     readonly [URI]: Either<E, A>
   }
