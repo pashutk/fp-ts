@@ -27,7 +27,7 @@ import {
   Functor3C,
   FunctorComposition23C,
   FunctorComposition23
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
 import { getLeft, getRight, Option } from './Option.ts'
 

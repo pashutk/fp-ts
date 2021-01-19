@@ -7,7 +7,7 @@ import {
   ApplicativeComposition2C1,
   ApplicativeCompositionHKT1,
   getApplicativeComposition
-} from './Applicative'
+} from './Applicative.ts'
 import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT.ts'
 import { Monad, Monad1, Monad2, Monad2C } from './Monad.ts'
 import { fold, none, Option, Applicative, some, URI } from './Option.ts'

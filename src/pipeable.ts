@@ -14,7 +14,7 @@ import {
   Compactable3C,
   Compactable4,
   Separated
-} from './Compactable'
+} from './Compactable.ts'
 import {
   Contravariant,
   Contravariant1,
@@ -23,7 +23,7 @@ import {
   Contravariant3,
   Contravariant3C,
   Contravariant4
-} from './Contravariant'
+} from './Contravariant.ts'
 import { Either } from './Either.ts'
 import { Extend, Extend1, Extend2, Extend2C, Extend3, Extend3C, Extend4 } from './Extend.ts'
 import {
@@ -34,7 +34,7 @@ import {
   Filterable3,
   Filterable3C,
   Filterable4
-} from './Filterable'
+} from './Filterable.ts'
 import {
   FilterableWithIndex,
   FilterableWithIndex1,
@@ -45,7 +45,7 @@ import {
   FilterableWithIndex4,
   PredicateWithIndex,
   RefinementWithIndex
-} from './FilterableWithIndex'
+} from './FilterableWithIndex.ts'
 import { Foldable, Foldable1, Foldable2, Foldable2C, Foldable3, Foldable3C, Foldable4 } from './Foldable.ts'
 import {
   FoldableWithIndex,
@@ -55,7 +55,7 @@ import {
   FoldableWithIndex3,
   FoldableWithIndex3C,
   FoldableWithIndex4
-} from './FoldableWithIndex'
+} from './FoldableWithIndex.ts'
 import { identity, Lazy, pipe as pipeFromFunctionModule, Predicate, Refinement } from './function.ts'
 import { Functor, Functor1, Functor2, Functor2C, Functor3, Functor3C, Functor4 } from './Functor.ts'
 import {
@@ -66,7 +66,7 @@ import {
   FunctorWithIndex3,
   FunctorWithIndex3C,
   FunctorWithIndex4
-} from './FunctorWithIndex'
+} from './FunctorWithIndex.ts'
 import { HKT, HKT2, Kind, Kind2, Kind3, Kind4, URIS, URIS2, URIS3, URIS4 } from './HKT.ts'
 import {
   MonadThrow,
@@ -76,7 +76,7 @@ import {
   MonadThrow3,
   MonadThrow3C,
   MonadThrow4
-} from './MonadThrow'
+} from './MonadThrow.ts'
 import { Monoid } from './Monoid.ts'
 import { Option } from './Option.ts'
 import { Profunctor, Profunctor2, Profunctor2C, Profunctor3, Profunctor3C, Profunctor4 } from './Profunctor.ts'
@@ -87,7 +87,7 @@ import {
   Semigroupoid3,
   Semigroupoid3C,
   Semigroupoid4
-} from './Semigroupoid'
+} from './Semigroupoid.ts'
 
 // TODO: remove module in v3
 

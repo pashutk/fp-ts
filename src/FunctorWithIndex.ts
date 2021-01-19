@@ -29,7 +29,7 @@ import {
   FunctorComposition22C,
   getFunctorComposition,
   Functor3C
-} from './Functor'
+} from './Functor.ts'
 
 /**
  * @category type classes

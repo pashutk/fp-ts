@@ -11,7 +11,7 @@ import {
   Filterable3,
   Filterable4,
   Filterable3C
-} from './Filterable'
+} from './Filterable.ts'
 import {
   FunctorWithIndex,
   FunctorWithIndex1,
@@ -20,7 +20,7 @@ import {
   FunctorWithIndex3,
   FunctorWithIndex4,
   FunctorWithIndex3C
-} from './FunctorWithIndex'
+} from './FunctorWithIndex.ts'
 import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
 import { Option } from './Option.ts'
 

@@ -22,7 +22,7 @@ import {
   Compactable4,
   Compactable3C,
   CompactableComposition23
-} from './Compactable'
+} from './Compactable.ts'
 import { Either } from './Either.ts'
 import { Predicate, Refinement } from './function.ts'
 import {
@@ -40,7 +40,7 @@ import {
   Functor4,
   Functor3C,
   FunctorComposition23
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
 import { getLeft, getRight, Option } from './Option.ts'
 

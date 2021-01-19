@@ -14,7 +14,7 @@ import {
   PartitionWithIndex1,
   PredicateWithIndex,
   RefinementWithIndex
-} from './FilterableWithIndex'
+} from './FilterableWithIndex.ts'
 import { Foldable1 } from './Foldable.ts'
 import { FoldableWithIndex1 } from './FoldableWithIndex.ts'
 import { identity, Lazy, Predicate, Refinement, pipe, bind_, bindTo_, flow } from './function.ts'

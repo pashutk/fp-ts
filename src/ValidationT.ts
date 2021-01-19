@@ -6,7 +6,7 @@ import {
   ApplicativeComposition12C,
   ApplicativeComposition22C,
   getApplicativeComposition
-} from './Applicative'
+} from './Applicative.ts'
 import { Either, getValidation, isLeft, isRight, left, URI } from './Either.ts'
 import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT.ts'
 import { Monad, Monad1, Monad2 } from './Monad.ts'

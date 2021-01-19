@@ -31,7 +31,7 @@ import {
   FunctorComposition2C1,
   getFunctorComposition,
   FunctorCompositionHKT2C
-} from './Functor'
+} from './Functor.ts'
 import { HKT, Kind, Kind2, Kind3, Kind4, URIS, URIS2, URIS3, URIS4 } from './HKT.ts'
 
 /**
