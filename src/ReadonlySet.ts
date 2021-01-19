@@ -1,15 +1,15 @@
 /**
  * @since 2.5.0
  */
-import { Either } from './Either'
-import { Monoid } from './Monoid'
-import { Ord } from './Ord'
-import { Semigroup } from './Semigroup'
-import { Eq, fromEquals } from './Eq'
-import { Predicate, not, Refinement, identity } from './function'
-import { Separated } from './Compactable'
-import { Option } from './Option'
-import { Show } from './Show'
+import { Either } from './Either.ts'
+import { Monoid } from './Monoid.ts'
+import { Ord } from './Ord.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Eq, fromEquals } from './Eq.ts'
+import { Predicate, not, Refinement, identity } from './function.ts'
+import { Separated } from './Compactable.ts'
+import { Option } from './Option.ts'
+import { Show } from './Show.ts'
 
 /**
  * @category constructors

@@ -1,10 +1,10 @@
 /**
  * @since 2.4.0
  */
-import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT'
-import { Monad, Monad1, Monad2 } from './Monad'
-import { Semigroup } from './Semigroup'
-import { bimap, both, fold, left, map, mapLeft, right, swap, These, toTuple } from './These'
+import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT.ts'
+import { Monad, Monad1, Monad2 } from './Monad.ts'
+import { Semigroup } from './Semigroup.ts'
+import { bimap, both, fold, left, map, mapLeft, right, swap, These, toTuple } from './These.ts'
 
 // TODO: remove module in v3
 

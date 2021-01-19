@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT'
-import { Monad, Monad1, Monad2, Monad2C, Monad3, Monad3C } from './Monad'
-import { State } from './State'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT.ts'
+import { Monad, Monad1, Monad2, Monad2C, Monad3, Monad3C } from './Monad.ts'
+import { State } from './State.ts'
 
 // TODO: remove module in v3
 

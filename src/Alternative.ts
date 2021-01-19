@@ -14,9 +14,9 @@
  *
  * @since 2.0.0
  */
-import { Alt, Alt1, Alt2, Alt2C, Alt3 } from './Alt'
-import { Applicative, Applicative1, Applicative2, Applicative2C, Applicative3 } from './Applicative'
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT'
+import { Alt, Alt1, Alt2, Alt2C, Alt3 } from './Alt.ts'
+import { Applicative, Applicative1, Applicative2, Applicative2C, Applicative3 } from './Applicative.ts'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT.ts'
 
 /**
  * @category type classes

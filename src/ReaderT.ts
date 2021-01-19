@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT'
-import { Monad, Monad1, Monad2, Monad2C, Monad3 } from './Monad'
-import { Reader } from './Reader'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT.ts'
+import { Monad, Monad1, Monad2, Monad2C, Monad3 } from './Monad.ts'
+import { Reader } from './Reader.ts'
 
 // TODO: remove module in v3
 

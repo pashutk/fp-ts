@@ -1,10 +1,10 @@
 /**
  * @since 2.0.0
  */
-import { identity, pipe, bind_, bindTo_, flow } from './function'
-import { Functor2 } from './Functor'
-import { Monad2 } from './Monad'
-import { Applicative2 } from './Applicative'
+import { identity, pipe, bind_, bindTo_, flow } from './function.ts'
+import { Functor2 } from './Functor.ts'
+import { Monad2 } from './Monad.ts'
+import { Applicative2 } from './Applicative.ts'
 
 // -------------------------------------------------------------------------------------
 // model

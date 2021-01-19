@@ -1,8 +1,8 @@
 /**
  * @since 2.0.0
  */
-import { IO } from './IO'
-import { Eq } from './Eq'
+import { IO } from './IO.ts'
+import { Eq } from './Eq.ts'
 
 /**
  * Returns the current `Date`

@@ -32,10 +32,10 @@
  *
  * @since 2.0.0
  */
-import { Bounded } from './Bounded'
-import { Endomorphism, identity } from './function'
-import { ReadonlyRecord } from './ReadonlyRecord'
-import * as S from './Semigroup'
+import { Bounded } from './Bounded.ts'
+import { Endomorphism, identity } from './function.ts'
+import { ReadonlyRecord } from './ReadonlyRecord.ts'
+import * as S from './Semigroup.ts'
 
 /**
  * @category type classes

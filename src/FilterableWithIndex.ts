@@ -1,8 +1,8 @@
 /**
  * @since 2.0.0
  */
-import { Separated } from './Compactable'
-import { Either } from './Either'
+import { Separated } from './Compactable.ts'
+import { Either } from './Either.ts'
 import {
   Filterable,
   Filterable1,
@@ -21,8 +21,8 @@ import {
   FunctorWithIndex4,
   FunctorWithIndex3C
 } from './FunctorWithIndex'
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT'
-import { Option } from './Option'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
+import { Option } from './Option.ts'
 
 /**
  * @since 2.0.0

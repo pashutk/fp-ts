@@ -10,14 +10,14 @@
  *
  * @since 2.0.0
  */
-import { Applicative1 } from './Applicative'
-import { identity, pipe, bind_, bindTo_, flow } from './function'
-import { IO } from './IO'
-import { Monad1 } from './Monad'
-import { MonadTask1 } from './MonadTask'
-import { Monoid } from './Monoid'
-import { Semigroup } from './Semigroup'
-import { Functor1 } from './Functor'
+import { Applicative1 } from './Applicative.ts'
+import { identity, pipe, bind_, bindTo_, flow } from './function.ts'
+import { IO } from './IO.ts'
+import { Monad1 } from './Monad.ts'
+import { MonadTask1 } from './MonadTask.ts'
+import { Monoid } from './Monoid.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Functor1 } from './Functor.ts'
 
 // -------------------------------------------------------------------------------------
 // model

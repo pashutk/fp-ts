@@ -1,21 +1,21 @@
 /**
  * @since 2.0.0
  */
-import { Applicative2C } from './Applicative'
-import { Apply2C } from './Apply'
-import { Bifunctor2 } from './Bifunctor'
-import { Chain2C } from './Chain'
-import { ChainRec2C } from './ChainRec'
-import { Comonad2 } from './Comonad'
-import { Foldable2 } from './Foldable'
-import { Monad2C } from './Monad'
-import { Monoid } from './Monoid'
-import * as RT from './ReadonlyTuple'
-import { Semigroup } from './Semigroup'
-import { Semigroupoid2 } from './Semigroupoid'
-import { Traversable2, PipeableTraverse2 } from './Traversable'
-import { Functor2 } from './Functor'
-import { Extend2 } from './Extend'
+import { Applicative2C } from './Applicative.ts'
+import { Apply2C } from './Apply.ts'
+import { Bifunctor2 } from './Bifunctor.ts'
+import { Chain2C } from './Chain.ts'
+import { ChainRec2C } from './ChainRec.ts'
+import { Comonad2 } from './Comonad.ts'
+import { Foldable2 } from './Foldable.ts'
+import { Monad2C } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
+import * as RT from './ReadonlyTuple.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Semigroupoid2 } from './Semigroupoid.ts'
+import { Traversable2, PipeableTraverse2 } from './Traversable.ts'
+import { Functor2 } from './Functor.ts'
+import { Extend2 } from './Extend.ts'
 
 // tslint:disable:readonly-array
 

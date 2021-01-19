@@ -4,20 +4,20 @@
  *
  * @since 2.0.0
  */
-import { Alt2, Alt2C } from './Alt'
-import { Applicative2, Applicative2C } from './Applicative'
-import { Bifunctor2 } from './Bifunctor'
-import * as E from './Either'
-import { Filterable2C, getFilterableComposition } from './Filterable'
-import { bindTo_, bind_, flow, identity, Lazy, pipe, Predicate, Refinement } from './function'
-import { Functor2 } from './Functor'
-import * as I from './IO'
-import { Monad2, Monad2C } from './Monad'
-import { MonadIO2, MonadIO2C } from './MonadIO'
-import { MonadThrow2, MonadThrow2C } from './MonadThrow'
-import { Monoid } from './Monoid'
-import { Option } from './Option'
-import { Semigroup } from './Semigroup'
+import { Alt2, Alt2C } from './Alt.ts'
+import { Applicative2, Applicative2C } from './Applicative.ts'
+import { Bifunctor2 } from './Bifunctor.ts'
+import * as E from './Either.ts'
+import { Filterable2C, getFilterableComposition } from './Filterable.ts'
+import { bindTo_, bind_, flow, identity, Lazy, pipe, Predicate, Refinement } from './function.ts'
+import { Functor2 } from './Functor.ts'
+import * as I from './IO.ts'
+import { Monad2, Monad2C } from './Monad.ts'
+import { MonadIO2, MonadIO2C } from './MonadIO.ts'
+import { MonadThrow2, MonadThrow2C } from './MonadThrow.ts'
+import { Monoid } from './Monoid.ts'
+import { Option } from './Option.ts'
+import { Semigroup } from './Semigroup.ts'
 
 // -------------------------------------------------------------------------------------
 // model

@@ -7,7 +7,7 @@
  *
  * @since 2.0.0
  */
-import { Ord, ordNumber } from './Ord'
+import { Ord, ordNumber } from './Ord.ts'
 
 /**
  * @category type classes

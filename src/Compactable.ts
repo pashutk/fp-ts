@@ -9,7 +9,7 @@
  *
  * @since 2.0.0
  */
-import { Either } from './Either'
+import { Either } from './Either.ts'
 import {
   Functor,
   Functor1,
@@ -28,8 +28,8 @@ import {
   FunctorComposition23C,
   FunctorComposition23
 } from './Functor'
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT'
-import { getLeft, getRight, Option } from './Option'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
+import { getLeft, getRight, Option } from './Option.ts'
 
 /**
  * A `Separated` type which holds `left` and `right` parts.

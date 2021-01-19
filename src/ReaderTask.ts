@@ -1,16 +1,16 @@
 /**
  * @since 2.3.0
  */
-import { Applicative2 } from './Applicative'
-import { bindTo_, bind_, flow, identity, pipe } from './function'
-import { Functor2 } from './Functor'
-import { IO } from './IO'
-import { Monad2 } from './Monad'
-import { MonadTask2 } from './MonadTask'
-import { Monoid } from './Monoid'
-import * as R from './Reader'
-import { Semigroup } from './Semigroup'
-import * as T from './Task'
+import { Applicative2 } from './Applicative.ts'
+import { bindTo_, bind_, flow, identity, pipe } from './function.ts'
+import { Functor2 } from './Functor.ts'
+import { IO } from './IO.ts'
+import { Monad2 } from './Monad.ts'
+import { MonadTask2 } from './MonadTask.ts'
+import { Monoid } from './Monoid.ts'
+import * as R from './Reader.ts'
+import { Semigroup } from './Semigroup.ts'
+import * as T from './Task.ts'
 
 // -------------------------------------------------------------------------------------
 // model

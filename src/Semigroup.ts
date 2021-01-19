@@ -37,10 +37,10 @@
  *
  * @since 2.0.0
  */
-import { identity } from './function'
-import { Magma } from './Magma'
-import { max, min, Ord } from './Ord'
-import { ReadonlyRecord } from './ReadonlyRecord'
+import { identity } from './function.ts'
+import { Magma } from './Magma.ts'
+import { max, min, Ord } from './Ord.ts'
+import { ReadonlyRecord } from './ReadonlyRecord.ts'
 
 /**
  * @category type classes

@@ -22,8 +22,8 @@ import {
   Applicative4,
   Applicative3C
 } from './Applicative'
-import { Chain, Chain1, Chain2, Chain2C, Chain3, Chain4, Chain3C } from './Chain'
-import { URIS, URIS2, URIS3, URIS4 } from './HKT'
+import { Chain, Chain1, Chain2, Chain2C, Chain3, Chain4, Chain3C } from './Chain.ts'
+import { URIS, URIS2, URIS3, URIS4 } from './HKT.ts'
 
 /**
  * @category type classes

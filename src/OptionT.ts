@@ -8,10 +8,10 @@ import {
   ApplicativeCompositionHKT1,
   getApplicativeComposition
 } from './Applicative'
-import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT'
-import { Monad, Monad1, Monad2, Monad2C } from './Monad'
-import { fold, none, Option, Applicative, some, URI } from './Option'
-import { Lazy } from './function'
+import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT.ts'
+import { Monad, Monad1, Monad2, Monad2C } from './Monad.ts'
+import { fold, none, Option, Applicative, some, URI } from './Option.ts'
+import { Lazy } from './function.ts'
 
 // TODO: remove module in v3
 

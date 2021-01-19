@@ -2,7 +2,7 @@
  * @since 2.2.0
  */
 
-import { Lazy } from './function'
+import { Lazy } from './function.ts'
 
 /**
  * Defines the fold over a boolean value.

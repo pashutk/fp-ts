@@ -9,7 +9,7 @@
  *
  * @since 2.0.0
  */
-import { Semiring, getFunctionSemiring } from './Semiring'
+import { Semiring, getFunctionSemiring } from './Semiring.ts'
 
 /**
  * @category type classes

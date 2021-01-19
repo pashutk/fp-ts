@@ -1,11 +1,11 @@
 /**
  * @since 2.0.0
  */
-import { ApplicativeComposition12, ApplicativeComposition22, ApplicativeCompositionHKT2 } from './Applicative'
-import * as E from './Either'
-import { flow, Lazy, pipe } from './function'
-import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT'
-import { Monad, Monad1, Monad2 } from './Monad'
+import { ApplicativeComposition12, ApplicativeComposition22, ApplicativeCompositionHKT2 } from './Applicative.ts'
+import * as E from './Either.ts'
+import { flow, Lazy, pipe } from './function.ts'
+import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT.ts'
+import { Monad, Monad1, Monad2 } from './Monad.ts'
 
 // TODO: remove module in v3
 

@@ -7,19 +7,19 @@
  *
  * @since 2.0.0
  */
-import { Applicative as ApplicativeHKT, Applicative1 } from './Applicative'
-import * as A from './Array'
-import { Comonad1 } from './Comonad'
-import { Eq, fromEquals } from './Eq'
-import { Foldable1 } from './Foldable'
-import { identity, pipe, bind_, bindTo_, flow } from './function'
-import { Functor1 } from './Functor'
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT'
-import { Monad as MonadHKT, Monad1, Monad2, Monad2C, Monad3, Monad3C } from './Monad'
-import { Monoid } from './Monoid'
-import { Show } from './Show'
-import { PipeableTraverse1, Traversable1 } from './Traversable'
-import { Extend1 } from './Extend'
+import { Applicative as ApplicativeHKT, Applicative1 } from './Applicative.ts'
+import * as A from './Array.ts'
+import { Comonad1 } from './Comonad.ts'
+import { Eq, fromEquals } from './Eq.ts'
+import { Foldable1 } from './Foldable.ts'
+import { identity, pipe, bind_, bindTo_, flow } from './function.ts'
+import { Functor1 } from './Functor.ts'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT.ts'
+import { Monad as MonadHKT, Monad1, Monad2, Monad2C, Monad3, Monad3C } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
+import { Show } from './Show.ts'
+import { PipeableTraverse1, Traversable1 } from './Traversable.ts'
+import { Extend1 } from './Extend.ts'
 
 // tslint:disable:readonly-array
 

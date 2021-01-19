@@ -3,9 +3,9 @@
  *
  * @since 2.0.0
  */
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT'
-import { MonadIO, MonadIO1, MonadIO2, MonadIO2C, MonadIO3, MonadIO3C, MonadIO4 } from './MonadIO'
-import { Task } from './Task'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
+import { MonadIO, MonadIO1, MonadIO2, MonadIO2C, MonadIO3, MonadIO3C, MonadIO4 } from './MonadIO.ts'
+import { Task } from './Task.ts'
 
 /**
  * @category type classes

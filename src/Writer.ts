@@ -1,10 +1,10 @@
 /**
  * @since 2.0.0
  */
-import { Functor2 } from './Functor'
-import { Monad2C } from './Monad'
-import { Monoid } from './Monoid'
-import { pipe } from './function'
+import { Functor2 } from './Functor.ts'
+import { Monad2C } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
+import { pipe } from './function.ts'
 
 // -------------------------------------------------------------------------------------
 // model

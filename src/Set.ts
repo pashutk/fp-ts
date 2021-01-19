@@ -1,16 +1,16 @@
 /**
  * @since 2.0.0
  */
-import { Separated } from './Compactable'
-import { Either } from './Either'
-import { Eq } from './Eq'
-import { Predicate, Refinement } from './function'
-import { Monoid } from './Monoid'
-import { Option } from './Option'
-import { Ord } from './Ord'
-import * as RS from './ReadonlySet'
-import { Semigroup } from './Semigroup'
-import { Show } from './Show'
+import { Separated } from './Compactable.ts'
+import { Either } from './Either.ts'
+import { Eq } from './Eq.ts'
+import { Predicate, Refinement } from './function.ts'
+import { Monoid } from './Monoid.ts'
+import { Option } from './Option.ts'
+import { Ord } from './Ord.ts'
+import * as RS from './ReadonlySet.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Show } from './Show.ts'
 
 /**
  * @category instances

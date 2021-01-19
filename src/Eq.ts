@@ -9,10 +9,10 @@
  *
  * @since 2.0.0
  */
-import { Contravariant1 } from './Contravariant'
-import { Monoid } from './Monoid'
-import { ReadonlyRecord } from './ReadonlyRecord'
-import { pipe } from './function'
+import { Contravariant1 } from './Contravariant.ts'
+import { Monoid } from './Monoid.ts'
+import { ReadonlyRecord } from './ReadonlyRecord.ts'
+import { pipe } from './function.ts'
 
 // -------------------------------------------------------------------------------------
 // model

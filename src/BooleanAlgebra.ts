@@ -10,7 +10,7 @@
  *
  * @since 2.0.0
  */
-import { HeytingAlgebra } from './HeytingAlgebra'
+import { HeytingAlgebra } from './HeytingAlgebra.ts'
 
 /**
  * @category type classes

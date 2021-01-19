@@ -1,9 +1,9 @@
 /**
  * @since 2.4.0
  */
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT'
-import { Monad, Monad1, Monad2, Monad2C, Monad3 } from './Monad'
-import { Monoid } from './Monoid'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3 } from './HKT.ts'
+import { Monad, Monad1, Monad2, Monad2C, Monad3 } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
 
 // TODO: remove module in v3
 

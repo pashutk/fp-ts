@@ -19,21 +19,21 @@
  *
  * @since 2.0.0
  */
-import { Applicative, Applicative2C } from './Applicative'
-import { Bifunctor2 } from './Bifunctor'
-import { Either, Left, Right } from './Either'
-import { Eq, fromEquals } from './Eq'
-import { Foldable2 } from './Foldable'
-import { Functor2 } from './Functor'
-import { HKT } from './HKT'
-import { Monad2C } from './Monad'
-import { MonadThrow2C } from './MonadThrow'
-import { Monoid } from './Monoid'
-import { isNone, none, Option, some } from './Option'
-import { Semigroup } from './Semigroup'
-import { Show } from './Show'
-import { PipeableTraverse2, Traversable2 } from './Traversable'
-import { pipe } from './function'
+import { Applicative, Applicative2C } from './Applicative.ts'
+import { Bifunctor2 } from './Bifunctor.ts'
+import { Either, Left, Right } from './Either.ts'
+import { Eq, fromEquals } from './Eq.ts'
+import { Foldable2 } from './Foldable.ts'
+import { Functor2 } from './Functor.ts'
+import { HKT } from './HKT.ts'
+import { Monad2C } from './Monad.ts'
+import { MonadThrow2C } from './MonadThrow.ts'
+import { Monoid } from './Monoid.ts'
+import { isNone, none, Option, some } from './Option.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Show } from './Show.ts'
+import { PipeableTraverse2, Traversable2 } from './Traversable.ts'
+import { pipe } from './function.ts'
 
 // -------------------------------------------------------------------------------------
 // model

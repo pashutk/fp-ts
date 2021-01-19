@@ -1,20 +1,20 @@
 /**
  * @since 2.0.0
  */
-import { Alt1 } from './Alt'
-import { Applicative as ApplicativeHKT, Applicative1 } from './Applicative'
-import { ChainRec1, tailRec } from './ChainRec'
-import { Comonad1 } from './Comonad'
-import { Eq } from './Eq'
-import { Extend1 } from './Extend'
-import { Foldable1 } from './Foldable'
-import { identity as id, pipe, bind_, bindTo_, flow } from './function'
-import { Functor1 } from './Functor'
-import { HKT } from './HKT'
-import { Monad1 } from './Monad'
-import { Monoid } from './Monoid'
-import { Show } from './Show'
-import { PipeableTraverse1, Traversable1 } from './Traversable'
+import { Alt1 } from './Alt.ts'
+import { Applicative as ApplicativeHKT, Applicative1 } from './Applicative.ts'
+import { ChainRec1, tailRec } from './ChainRec.ts'
+import { Comonad1 } from './Comonad.ts'
+import { Eq } from './Eq.ts'
+import { Extend1 } from './Extend.ts'
+import { Foldable1 } from './Foldable.ts'
+import { identity as id, pipe, bind_, bindTo_, flow } from './function.ts'
+import { Functor1 } from './Functor.ts'
+import { HKT } from './HKT.ts'
+import { Monad1 } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
+import { Show } from './Show.ts'
+import { PipeableTraverse1, Traversable1 } from './Traversable.ts'
 
 // -------------------------------------------------------------------------------------
 // model

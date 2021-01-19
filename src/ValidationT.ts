@@ -7,11 +7,11 @@ import {
   ApplicativeComposition22C,
   getApplicativeComposition
 } from './Applicative'
-import { Either, getValidation, isLeft, isRight, left, URI } from './Either'
-import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT'
-import { Monad, Monad1, Monad2 } from './Monad'
-import { Semigroup } from './Semigroup'
-import { Lazy } from './function'
+import { Either, getValidation, isLeft, isRight, left, URI } from './Either.ts'
+import { HKT, Kind, Kind2, URIS, URIS2 } from './HKT.ts'
+import { Monad, Monad1, Monad2 } from './Monad.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Lazy } from './function.ts'
 
 // TODO: remove module in v3
 

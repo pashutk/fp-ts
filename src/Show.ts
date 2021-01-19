@@ -1,7 +1,7 @@
 /**
  * @since 2.0.0
  */
-import { ReadonlyRecord } from './ReadonlyRecord'
+import { ReadonlyRecord } from './ReadonlyRecord.ts'
 
 /**
  * The `Show` type class represents those types which can be converted into

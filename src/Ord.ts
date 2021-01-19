@@ -9,12 +9,12 @@
  *
  * @since 2.0.0
  */
-import { Contravariant1 } from './Contravariant'
-import { Eq } from './Eq'
-import { Monoid } from './Monoid'
-import { monoidOrdering, Ordering } from './Ordering'
-import { Semigroup } from './Semigroup'
-import { pipe } from './function'
+import { Contravariant1 } from './Contravariant.ts'
+import { Eq } from './Eq.ts'
+import { Monoid } from './Monoid.ts'
+import { monoidOrdering, Ordering } from './Ordering.ts'
+import { Semigroup } from './Semigroup.ts'
+import { pipe } from './function.ts'
 
 // -------------------------------------------------------------------------------------
 // model

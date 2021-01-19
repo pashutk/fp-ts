@@ -1,36 +1,36 @@
 /**
  * @since 2.5.0
  */
-import { Alt1 } from './Alt'
-import { Alternative1 } from './Alternative'
-import { Applicative as ApplicativeHKT, Applicative1 } from './Applicative'
-import { Compactable1, Separated } from './Compactable'
-import { Either } from './Either'
-import { Eq } from './Eq'
-import { Extend1 } from './Extend'
-import { Filter1, Filterable1, Partition1 } from './Filterable'
+import { Alt1 } from './Alt.ts'
+import { Alternative1 } from './Alternative.ts'
+import { Applicative as ApplicativeHKT, Applicative1 } from './Applicative.ts'
+import { Compactable1, Separated } from './Compactable.ts'
+import { Either } from './Either.ts'
+import { Eq } from './Eq.ts'
+import { Extend1 } from './Extend.ts'
+import { Filter1, Filterable1, Partition1 } from './Filterable.ts'
 import {
   FilterableWithIndex1,
   PartitionWithIndex1,
   PredicateWithIndex,
   RefinementWithIndex
 } from './FilterableWithIndex'
-import { Foldable1 } from './Foldable'
-import { FoldableWithIndex1 } from './FoldableWithIndex'
-import { identity, Lazy, Predicate, Refinement, pipe, bind_, bindTo_, flow } from './function'
-import { Functor1 } from './Functor'
-import { FunctorWithIndex1 } from './FunctorWithIndex'
-import { HKT } from './HKT'
-import { Monad1 } from './Monad'
-import { Monoid } from './Monoid'
-import * as O from './Option'
-import { fromCompare, getMonoid as getOrdMonoid, Ord, ordNumber } from './Ord'
-import { ReadonlyNonEmptyArray } from './ReadonlyNonEmptyArray'
-import { Show } from './Show'
-import { PipeableTraverse1, Traversable1 } from './Traversable'
-import { PipeableTraverseWithIndex1, TraversableWithIndex1 } from './TraversableWithIndex'
-import { Unfoldable1 } from './Unfoldable'
-import { PipeableWilt1, PipeableWither1, Witherable1 } from './Witherable'
+import { Foldable1 } from './Foldable.ts'
+import { FoldableWithIndex1 } from './FoldableWithIndex.ts'
+import { identity, Lazy, Predicate, Refinement, pipe, bind_, bindTo_, flow } from './function.ts'
+import { Functor1 } from './Functor.ts'
+import { FunctorWithIndex1 } from './FunctorWithIndex.ts'
+import { HKT } from './HKT.ts'
+import { Monad1 } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
+import * as O from './Option.ts'
+import { fromCompare, getMonoid as getOrdMonoid, Ord, ordNumber } from './Ord.ts'
+import { ReadonlyNonEmptyArray } from './ReadonlyNonEmptyArray.ts'
+import { Show } from './Show.ts'
+import { PipeableTraverse1, Traversable1 } from './Traversable.ts'
+import { PipeableTraverseWithIndex1, TraversableWithIndex1 } from './TraversableWithIndex.ts'
+import { Unfoldable1 } from './Unfoldable.ts'
+import { PipeableWilt1, PipeableWither1, Witherable1 } from './Witherable.ts'
 
 import Option = O.Option
 

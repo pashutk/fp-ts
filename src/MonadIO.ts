@@ -3,9 +3,9 @@
  *
  * @since 2.0.0
  */
-import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT'
-import { IO } from './IO'
-import { Monad, Monad1, Monad2, Monad3, Monad2C, Monad3C, Monad4 } from './Monad'
+import { HKT, Kind, Kind2, Kind3, URIS, URIS2, URIS3, URIS4, Kind4 } from './HKT.ts'
+import { IO } from './IO.ts'
+import { Monad, Monad1, Monad2, Monad3, Monad2C, Monad3C, Monad4 } from './Monad.ts'
 
 /**
  * @category type classes

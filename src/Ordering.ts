@@ -1,9 +1,9 @@
 /**
  * @since 2.0.0
  */
-import { Semigroup } from './Semigroup'
-import { Eq } from './Eq'
-import { Monoid } from './Monoid'
+import { Semigroup } from './Semigroup.ts'
+import { Eq } from './Eq.ts'
+import { Monoid } from './Monoid.ts'
 
 /**
  * @category model

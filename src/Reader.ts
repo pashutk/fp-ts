@@ -1,17 +1,17 @@
 /**
  * @since 2.0.0
  */
-import { Applicative2 } from './Applicative'
-import { Category2 } from './Category'
-import { Choice2 } from './Choice'
-import * as E from './Either'
-import { bindTo_, bind_, flow, identity, pipe, constant } from './function'
-import { Functor2 } from './Functor'
-import { Monad2 } from './Monad'
-import { Monoid } from './Monoid'
-import { Profunctor2 } from './Profunctor'
-import { Semigroup } from './Semigroup'
-import { Strong2 } from './Strong'
+import { Applicative2 } from './Applicative.ts'
+import { Category2 } from './Category.ts'
+import { Choice2 } from './Choice.ts'
+import * as E from './Either.ts'
+import { bindTo_, bind_, flow, identity, pipe, constant } from './function.ts'
+import { Functor2 } from './Functor.ts'
+import { Monad2 } from './Monad.ts'
+import { Monoid } from './Monoid.ts'
+import { Profunctor2 } from './Profunctor.ts'
+import { Semigroup } from './Semigroup.ts'
+import { Strong2 } from './Strong.ts'
 
 // -------------------------------------------------------------------------------------
 // model
